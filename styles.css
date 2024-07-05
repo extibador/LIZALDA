@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2cc;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.welcome-container{
+    background-color: aqua;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cuerpo {
+    flex: 1;
+    padding: 2rem;
+    background-color: rgb(243, 247, 245);
+    background-color: #e9ecf0;   
+ }
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;   
+}
+.navbar ul{
+    list-style: none;
+    display: flex;      
+}
+.navbar h1{
+    color: darkorange;
+    margin-right: 49rem;
+}
+.navbar a{
+    text-align: right;
+    color: hsl(0, 33%, 98%);
+    list-style: none;
+    text-decoration: none;
+    margin: 10px   
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    background-color: hsl(236, 63%, 5%);
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar  ul {
+    list-style: none;
+    
+    
+}
+.sidebar li {
+    margin-bottom: 1rem;
+    
+}
+.sidebar  a {
+    text-decoration: none;
+    color: #f8f3f3;
+}
+.sidebar  a:hover {
+    color: coral;
+    
+}
+
+.nombre{
+    color: #f8f1f1;
+    list-style: none;   
+}
+/*formulario iniciar secion*/
+.form-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ctn-form{
+    width: 80%;
+    padding: 40px;
+    background-color: #c6d0ec;
+}
+.ctn-text{
+    width: 100%;
+    background-image: url(/imagines/descarga.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
